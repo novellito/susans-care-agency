@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu:400i" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Susan's Care Agency</title>
-</head>
-
+        <?php
+            include_once('./components/head.php');
+        ?>
 <body>
-    <nav class="navbar navbar-toggleable navbar-inverse">
-        <div class="container">
-            <a class="navbar-brand" href="/index.html">
-                <img src="assets/images/dummyLogo.png" alt="Dummy Logo">
-                <span class="subHead h3">Susan's Care Agency</span>
-            </a>
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="/index.html">Home</a>
-                <a class="nav-item nav-link active" href="/staff.html">Our Staff</a>
-                <a class="nav-item nav-link" href="#">Testimonials</a>
-                <a class="nav-item nav-link" href="/about.html">About Us</a>
-            </div>
-    </nav>
-    </div>
+        <?php
+            include_once('./components/navbar.php');
+        ?>
 
     <div class="container">
         <p class="h2 mt-3">Our Staff</p>
         <img src="assets/images/1.jpg" class="mb-4">
 
     </div>
-
 
     <div class="container card-deck">
 
@@ -74,11 +53,6 @@
         </section>
 
     </div>
-
-
-    </div>
-
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
