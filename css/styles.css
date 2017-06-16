@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 5px;
 }
 
 .navbar {
@@ -55,7 +56,7 @@ header p {
 }
 
 .navbar-brand p {
-    margin-left: 110px;
+    margin-left: 115px;
     margin-top: -30px;
     font-size: 1em;
     font-style: normal;
