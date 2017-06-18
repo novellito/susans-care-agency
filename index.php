@@ -12,7 +12,7 @@
         include_once('./components/navbar.php')
         ?>
 
-            <header class="jumbotron jumbotron-fluid mb-2" id="home">
+            <header class="jumbotron jumbotron-fluid mb-0" id="home">
                 <div class="container outer">
                     <div class="display-2 mb-4">Our Mission</div>
 
@@ -28,9 +28,9 @@
                 </div>
             </header>
 
-            <div class="container card-deck">
-
-                <section class="services card card-outline-info mb-3 " id="ourServices">
+            <div class="outerContainer" >
+            <div class="container card-deck" >
+                <section class="services card card-outline-info mb-3 "  id="ourServices">
                     <header class="card-header card-info text-white">
                         <h2 class="mt-2">Our Services</h2>
                     </header>
@@ -77,16 +77,15 @@
                     </div>
                 </section>
             </div>
+</div>
 
-
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-                crossorigin="anonymous"></script>
-            <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-            <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>-->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-                crossorigin="anonymous"></script>
-
-            <script src="js/script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <!--<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.10.2/esm/popper-utils.js"></script>-->
+            <script src="js/Popper.js"></script>
+            <script src="js/bootstrap.js"></script>
     </body>
 
 </html>

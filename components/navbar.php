@@ -1,4 +1,4 @@
-<nav class="navbar navbar-toggleable navbar-inverse hidden-xs-down">
+<nav class="navbar navbar-toggleable navbar-inverse ">
 
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuCollapse" aria-controls="menuCollapse" aria-expanded="false" aria-label="Navigation Toggle">
             <span class="navbar-toggler-icon"></span>
@@ -12,7 +12,7 @@
             <p>Loving &amp; Caring People</p>
         </a>
 
-        <div class="collapse navbar-collapse" id="menuCollapse">
+        <div class="collapse navbar-collapse " id="menuCollapse">
             <div class="navbar-nav ml-4">
                 <a class="nav-item nav-link active" href="index.php">Home</a>
                 <a class="nav-item nav-link" href="staff.php">Our Staff</a>
