@@ -12,19 +12,19 @@
         include_once('./components/navbar.php')
         ?>
 
-            <header class="jumbotron jumbotron-fluid mb-0" id="home">
+            <header class="jumbotron jumbotron-fluid mb-4" id="home">
                 <div class="container outer">
                     <div class="display-2 mb-4">Our Mission</div>
 
-                    <p class="lead">"The late stages in life can be significant and emotional. It allows families to come together in special
+                    <p>"The late stages in life can be significant and emotional. It allows families to come together in special
                         moments. Focus on livin loving care and attempt to make their loved ones as comportable and secure
                         as possible. This can be an overwhelming task" </p>
 
-                    <p class="lead">We are committed to provide unmatched services for the eldederly in the comfort of their own home, retirement
+                    <p>We are committed to provide unmatched services for the eldederly in the comfort of their own home, retirement
                         home or hospital. To provide care for the elderly by simply working with them like our own family.
                     </p>
 
-                    <p class="lead">We have set a standard in the industry by providing services to maintain a good quality life.</p>
+                    <p>We have set a standard in the industry by providing services to maintain a good quality life.</p>
                 </div>
             </header>
 
@@ -78,6 +78,15 @@
                 </section>
             </div>
 </div>
+        <footer>
+            <div class="content-wrap">
+               <h2>Keep in touch with us</h2>
+                <div class="contactInfo">
+                  <span> Email: <a href="mailto:susanrepollo@yahoo.com">Susan Repollo</a></span>
+                </div>
+            </div>
+           <p class="copyright">Copyright 2017 by Susan Repollo</p>
+        </footer>
 
             <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
             <!--<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
@@ -87,5 +96,6 @@
             <script src="js/Popper.js"></script>
             <script src="js/bootstrap.js"></script>
     </body>
+    
 
 </html>

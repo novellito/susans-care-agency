@@ -85,7 +85,7 @@ header p {
 }
 
 .outer p {
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
@@ -148,17 +148,26 @@ header p {
     width: 80%;
 }
 
-address {
+.kontact {
     text-align: center;
-    font-size: 1.2em
 }
 
-address span#contact {
-    font-size: 1.3em;
-    font-weight: bold;
+/*++++++++++++++++++++Footer +++++++++++++++++++++*/
+
+footer {
+    text-align: center;
 }
 
-address span#susan {
-    font-size: 1.2em;
-    font-weight: bold;
+footer div {
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;    
+}
+
+.content-wrap h2 {
+    padding-top: 15px;
+}
+
+.copyright {
+    margin-top: 10px;
 }
