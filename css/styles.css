@@ -14,15 +14,16 @@ body {
 
 body {
     overflow-x: hidden;
+    background: rgba(215, 205, 255, .3);
 }
 
 * {
     box-sizing: border-box;
 }
 
-.navbar {
+/*.navbar {
     height: 100px;
-}
+}*/
 
 nav {
     background-color: #323459;
@@ -62,17 +63,17 @@ header p {
     opacity: 1;
 }
 
-.navbar-brand img {
+.navBrand img {
     height: 80px;
 }
 
-.navbar-brand span.subHead {
+.navBrand span.subHead {
     font-family: 'Lobster', cursive;
     font-size: 1.6em;
 }
 
-.navbar-brand p {
-    margin-left: 115px;
+.navBrand p {
+    margin-left: 110px;
     margin-top: -30px;
     font-size: 1em;
     font-style: normal;
@@ -104,7 +105,7 @@ header p {
 }
 
 .outerContainer {
-    background: rgba(215, 205, 255, .3);
+/*    background: rgba(215, 205, 255, .3);*/
     /*height: 100%;*/
     padding-bottom:20px;
 }
@@ -171,3 +172,4 @@ footer div {
 .copyright {
     margin-top: 10px;
 }
+    

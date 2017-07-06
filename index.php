@@ -14,9 +14,9 @@
 
             <header class="jumbotron jumbotron-fluid mb-4" id="home">
                 <div class="container outer">
-                    <div class="display-2 mb-4">Our Mission</div>
+                    <div class="display-2 mb-4" id="mission">Our Mission</div>
 
-                    <p>"The late stages in life can be significant and emotional. It allows families to come together in special
+                    <p style="font-style: italic;">"The late stages in life can be significant and emotional. It allows families to come together in special
                         moments. Focus on livin loving care and attempt to make their loved ones as comportable and secure
                         as possible. This can be an overwhelming task" </p>
 
@@ -30,6 +30,7 @@
 
             <div class="outerContainer" >
             <div class="container card-deck" >
+                
                 <section class="services card card-outline-info mb-3 "  id="ourServices">
                     <header class="card-header card-info text-white">
                         <h2 class="mt-2">Our Services</h2>
@@ -78,15 +79,9 @@
                 </section>
             </div>
 </div>
-        <footer>
-            <div class="content-wrap">
-               <h2>Keep in touch with us</h2>
-                <div class="contactInfo">
-                  <span> Email: <a href="mailto:susanrepollo@yahoo.com">Susan Repollo</a></span>
-                </div>
-            </div>
-           <p class="copyright">Copyright 2017 by Susan Repollo</p>
-        </footer>
+            <?php
+             include_once('./components/footer.php')
+            ?>        
 
             <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
             <!--<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>

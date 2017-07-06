@@ -4,9 +4,11 @@
     </button>
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <img src="assets/images/susanLogo.png" alt="Logo">
-            <span class="subHead h3">Susan's Care Agency</span>
-            <p>Loving &amp; Caring People</p>
+            <div class="navBrand">
+                <img src="assets/images/susanLogo.png" alt="Logo">
+                <span class="subHead">Susan's Care Agency</span>
+                <p>Loving &amp; Caring People</p>
+            </div>
         </a>
 
         <div class="collapse navbar-collapse" id="collapseMenu">
@@ -14,7 +16,7 @@
                 <a class="nav-item nav-link active" href="index.php">Home</a>
                 <a class="nav-item nav-link" href="staff.php">Our Staff</a>
                 <!--                <a class="nav-item nav-link" href="#">Testimonials</a>-->
-                <a class="nav-item nav-link" href="about.php">About Us</a>
+                <a class="nav-item nav-link" href="about.php">Contact Us</a>
             </div>
         </div>
 

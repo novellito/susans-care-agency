@@ -10,8 +10,8 @@
 
     <div class="container">
         <p class="h2 mt-3">Our Staff</p>
+        <hr>
         <img src="assets/images/1.jpg" class="mb-4">
-
     </div>
 
     <div class="container card-deck">
@@ -53,7 +53,9 @@
         </section>
 
     </div>
-
+    <?php
+       include_once('./components/footer.php')
+     ?> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
