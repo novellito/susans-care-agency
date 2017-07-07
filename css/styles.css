@@ -81,6 +81,9 @@ header p {
     letter-spacing: 2px;
 }
 
+.navbar-nav {
+    margin-left: 65px;
+}
 .outer {
     margin: 8% auto;
 }

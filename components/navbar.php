@@ -12,7 +12,7 @@
         </a>
 
         <div class="collapse navbar-collapse" id="collapseMenu">
-            <div class="navbar-nav mr-auto">
+            <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="index.php">Home</a>
                 <a class="nav-item nav-link" href="staff.php">Our Staff</a>
                 <!--                <a class="nav-item nav-link" href="#">Testimonials</a>-->
