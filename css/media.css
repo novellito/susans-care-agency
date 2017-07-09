@@ -75,6 +75,11 @@
             font-size: 1em;
         }
         .display-2.mb-4 {
-            font-size: 4em;
+            font-size: 3em;
+            
         }
+        .jumbotron {
+            padding-top: 5px;
+        }
+        
     }

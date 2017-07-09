@@ -12,16 +12,14 @@
         include_once('./components/navbar.php')
         ?>
 
-            <header class="jumbotron jumbotron-fluid mb-4" id="home">
+            <header class="jumbotron jumbotron-fluid" id="home">
                 <div class="container outer">
                     <div class="display-2 mb-4" id="mission">Our Mission</div>
 
-                    <p style="font-style: italic;">"The late stages in life can be significant and emotional. It allows families to come together in special
-                        moments. Focus on livin loving care and attempt to make their loved ones as comportable and secure
-                        as possible. This can be an overwhelming task" </p>
+                    <p style="font-style: italic;">"The late stages in life can be significant and emotional. It allows families to come together in special moments. Focus on giving loving care and attempt to make their loved ones as comfortable and secure as possible. This can be an overwhelming task" </p>
 
-                    <p>We are committed to provide unmatched services for the eldederly in the comfort of their own home, retirement
-                        home or hospital. To provide care for the elderly by simply working with them like our own family.
+                    <p>We are committed to provide unmatched services for the elderly in the comfort of their own home, retirement
+                        home or hospital. We are committed to provide care for the elderly by simply working with them like our own family.
                     </p>
 
                     <p>We have set a standard in the industry by providing services to maintain a good quality life.</p>

@@ -30,6 +30,10 @@ nav {
     background-image: url(../assets/images/nursing2.jpg);
 }
 
+.jumbotron {
+            padding-top: 10px;
+}
+
 header#home {
     position: relative;
     /*overflow: hidden;*/
